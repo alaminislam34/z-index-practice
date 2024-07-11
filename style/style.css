@@ -1,0 +1,26 @@
+body{
+    align-items: center;
+}
+.box{
+    width: 300px;
+    height: 300px;
+}
+.bx{
+    position: relative;
+    border: 1px solid tomato;
+    border-radius: 10px;
+}
+.box1{
+    background-color: aqua;
+    z-index: 4;
+}
+.box2{
+    top: -100px;
+}
+.box2{
+    background-color: aquamarine;
+    z-index: 2;
+}
+.box3{
+    top: -200px;
+}
