@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h2::after{
+            content: '.pdf';
+            font-size: 20px;
+            color: aqua;
+            background-color: gray;
+        }
+        h2::before{
+            content: 'head..';
+            font-size: 20px;
+            color: skyblue;
+            background-color: gray;
+        }
+        p::first-letter{
+            font-size: 30px;
+        }
+        p::first-line{
+            color: rgb(11, 7, 250);
+        }
+        ::selection{
+            background-color: yellow;
+            color: #ec09a8;
+        }
+        input::placeholder{
+            color: rgb(13, 1, 78);
+            font-size: 30px;
+        }
+        input{
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Heading1</h2>
+    <h2>Heading2</h2>
+    <h2>Heading3</h2>
+    <h2>Heading4</h2>
+
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum voluptates sit quaerat asperiores molestias? Qui voluptatem eveniet voluptas optio voluptatibus!</p>
+    <p>Soluta sapiente explicabo repellendus dicta accusantium. Ipsum aut nisi exercitationem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias aperiam consequuntur sint voluptas iusto soluta delectus, dolores ipsa accusantium quo!</p>
+    <p>Non dolore sint corrupti placeat repellat tenetur unde, at soluta?Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, magnam ab minima necessitatibus ipsam numquam fugiat! Tenetur asperiores voluptatem sequi!</p>
+
+
+    <input type="text" placeholder="click me now">
+</body>
+</html>
